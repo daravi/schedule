@@ -8,7 +8,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
-set(CMAKE_CXX_COMPILER /Users/asma/.local/bin/clang++)
+set(CMAKE_CXX_COMPILER ~/.local/bin/clang++)
 
 add_library(scheduler SHARED ${CMAKE_CURRENT_SOURCE_DIR}/src/Scheduler.cpp)
 target_include_directories(scheduler PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
